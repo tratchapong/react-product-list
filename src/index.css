@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.product-container {
+
+  padding: 16px 32px;
+  display: flex;
+  gap:12px;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 12px;
+  width: 300px;
+  text-align: center;
+}
+
+.product-item:hover {
+  box-shadow: 4px 4px 8px #ddd;
+}
+.product-item img {
+  width: 100%;
+}
+
+.product-item .description {
+  display: -webkit-box;
+  line-clamp: 3;
+  overflow: hidden;
+  line-height: 1.2rem;
+  max-height: 3.6rem;
+}
